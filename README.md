@@ -1,10 +1,10 @@
-Dengue Case Forecasting in Sri Lanka using XGBoost
-Project Overview
+###Dengue Case Forecasting in Sri Lanka using XGBoost
+##Project Overview
 This project implements a machine learning approach to forecast monthly dengue fever cases in various districts (RDHS units) across Sri Lanka. The core of the solution is a two-part time series forecasting model built using the XGBoost algorithm.
 
 The model is designed to handle the unique characteristics of dengue case data, such as zero-inflation (months with zero cases) and complex seasonal patterns. It integrates historical dengue case data with external weather variables to provide robust and data-driven forecasts.
 
-Core Methodology
+##Core Methodology
 The forecasting model employs a two-part strategy for each district:
 
 Part 1: Classification Model: An XGBoost classification model predicts whether a given month will have any dengue cases at all. This addresses the challenge of zero-inflated data.
